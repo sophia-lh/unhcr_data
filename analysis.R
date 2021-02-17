@@ -11,8 +11,8 @@ library(maps)
 all_data <- read.csv("data/population.csv", skip = 14)
 
 #Simple exploration
-dim(data)
-unique(data$Year)
+dim(all_data)
+unique(all_data$Year)
 length(unique(all_data$Country.of.origin))
 length(unique(all_data$Country.of.asylum))
 

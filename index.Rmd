@@ -1,9 +1,9 @@
 ---
-title: "index"
+title: "Asylum Seeker Report"
 output: html_document
 ---
 
-```{r include=F}
+```{r include = F}
 source("analysis.R")
 library(knitr)
 ```
@@ -16,6 +16,6 @@ kable(top_10_countries, col.names = c("Country of Origin", "Number of Aslym Seek
 
 Below is a map of where people came from around the globe.
 
-```{r}
+```{r echo = F}
 asylum_map
 ```
